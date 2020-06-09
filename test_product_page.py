@@ -77,7 +77,6 @@ class TestLoginFromMainPage():
         page.open()
         page.go_to_login_page()
 
-
 class TestUserAddToBasketFromProductPage():
     @pytest.fixture(scope="function", autouse=True)
     def setup(self, browser):
